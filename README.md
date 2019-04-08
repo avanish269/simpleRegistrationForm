@@ -4,3 +4,6 @@ This app consist of view that lists successful registrations and Bootstrap is us
 Only basic functions have been added till now.  
 Run the following command and then go to localhost:8080  
 >npm run watch  
+
+To access the list of all registrations create a file named user.htpasswd and in it enter your username and password in format <username\>:<password\>.   
+Then go to localhost:8080/registrations
